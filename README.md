@@ -6,3 +6,6 @@ Folder for NoSQL MBA studies on [FIAP](https://www.googleadservices.com/pagead/a
 
 ## 2 - Key-Value Databases (Redis)
 - [PDF](https://github.com/Darklabel91/NoSQL_Fiap/blob/main/Key-Value%20Databases/MBA%20ASO%20%20-%20Cap%202%20-%20Key-value%20Databases%20(ReDis)_RevFinal.pdf)
+- [RedisDownload](https://redis.io/download/)
+- [RedisOnline](https://try.redis.io)
+- [Exemple](https://github.com/Darklabel91/NoSQL_Fiap/blob/main/Key-Value%20Databases/Redis.md)
