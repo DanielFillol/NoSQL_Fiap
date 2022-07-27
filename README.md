@@ -9,3 +9,6 @@ Folder for NoSQL MBA studies on [FIAP](https://www.googleadservices.com/pagead/a
 - [RedisDownload](https://redis.io/download/)
 - [RedisOnline](https://try.redis.io)
 - [Exemple](https://github.com/Darklabel91/NoSQL_Fiap/blob/main/Key-Value%20Databases/Redis.md)
+
+## 3 - Columnar-Oriented Databases (Cassandra)
+-[PDF](https://github.com/Darklabel91/NoSQL_Fiap/blob/main/Columnar-Oriented%20Databases/MBA%20ASO%20%20-%20Cap%203%20-%20Columnar%20-%20Oriented%20Databases%20(Cassandra)_RevFinal.pdf)
