@@ -1,69 +1,68 @@
 Redis
 
-Ping 
+```Ping ```
 //test if everything is ok
 
-Set mykey labfiap
+```Set mykey labfiap```
 //Creates a key with labfiap as value
 
-get mykey
+```get mykey```
 //Get the value of the key
 
-Set mykey  “LabFiap” ex 60
+```Set mykey  “LabFiap” ex 60```
 //Creates a key with a value that expires in 60 seconds.
 
-Ttl mykey 
+```Ttl mykey ```
 //Show how long the key is still active
 
-Mset chave1 valor1 chave2 valor2 chave3 valor3 chave4 valor4
+```Mset chave1 valor1 chave2 valor2 chave3 valor3 chave4 valor4```
 //Creates multiple keys with multiple values
 
-Keys *
+```Keys *```
 //Shows all keys
 
-keys "chave*"
+```keys "chave*"```
 //Search for keys with “chave” as identifier
 
-Mget chave1 chave2
+```Mget chave1 chave2```
 //Get keys 
 
-Hset Aula:4 NoSQL Redis
+```Hset Aula:4 NoSQL Redis```
 //Creates a key “Aula:4” column NoSQL and the value is Redis
 
-Hmset user:001 username teste aluno FIAP disciplina NoSQL unidade Paulista
+```Hmset user:001 username teste aluno FIAP disciplina NoSQL unidade Paulista```
 //Creates key and many couples
 
-lPush nosql mongodb
+```lPush nosql mongodb```
 //Creates list
 
-Lrange nosql 0 -1
+```Lrange nosql 0 -1```
 //Brings up all list
 
-Sadd alunos:Paulucci	Joaquim Beto Ana
+```Sadd alunos:Paulucci	Joaquim Beto Ana```
 //Conjunto and unique values, this defers from list
 
-Sadd amigos:Joaquim Joao Ana add repete values
+```Sadd amigos:Joaquim Joao Ana```
+//add repete values
 
-Smembers amigos: Joaquim
+```Smembers amigos: Joaquim```
 //Show only uniques
 
-Zadd notas 7 Joaquim 5 Beto 8 Ana 9 Joao
+```Zadd notas 7 Joaquim 5 Beto 8 Ana 9 Joao```
 //Conjunto ordenado
 
-Zcount notas 1 7
+```Zcount notas 1 7```
 //How many values between 1 and 7
 
-Zrank notas Joaquim
+```Zrank notas Joaquim```
 //Show position on conjunto ordenado
 
-Set msg “O Redis é rápido”
+```Set msg “O Redis é rápido”```
 //Creates a string
 
-Strlen msg
+```Strlen msg```
 //Len of mesege
 
-
-Getrange msg 0 10
+```Getrange msg 0 10```
 //Get range of string
-
 
