@@ -23,6 +23,7 @@ Folder for NoSQL MBA studies on [FIAP](https://www.googleadservices.com/pagead/a
 - [PDF](https://github.com/Darklabel91/NoSQL_Fiap/blob/main/Document-Oriented%20Databases/MBA%20ASO%20%20-%20Cap%204%20-%20Document-Based%20Databases%20(MongoDB)_RevFinal_20201112_1633%20(1).pdf)
 - [Ref.](https://github.com/Darklabel91/NoSQL_Fiap/blob/main/References/4.png)
 
-## 5 
+## 5 - Graph-Based Databases (Neo4J)
+- [PDF](https://github.com/Darklabel91/NoSQL_Fiap/blob/main/Graph-Oriented%20Databases/MBA%20ASO%20%20-%20Cap%205%20-%20Graph-Based%20Databases%20(Neo4j)_RevFinal.pdf)
 - [Ref.](https://github.com/Darklabel91/NoSQL_Fiap/blob/main/References/5.png)
 
