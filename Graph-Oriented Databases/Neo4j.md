@@ -1,15 +1,15 @@
 
 Create database "Airport"
-'''sql
+```sql
 CREATE CONSTRAINT ON (a: Airport) ASSERT a.id IS UNIQUE;
 CREATE INDEX ON :Airport(Name);
 CREATE INDEX ON :Airport(iata);
 CREATE INDEX ON :Airport(location);
-'''
+```
 
 
 Loads the data from url
-'''sql
+```sql
 WITH "https://r.neo4j.com/airports" AS url
 CALL apoc.load.jsonArray(url) YIELD value
 MERGE (a: Airport {id:value.`Airport ID`})
@@ -22,11 +22,10 @@ WITH *
 UNWIND value.destinations as dest
 MERGE (b:Airport {id:dest})
 MERGE (a)-[:CONNECTS]-(b);
-'''
-
+```
 
 Calculates the distance from airports
-'''sql
+```sql
 MATCH (a: Airport)-[r:CONNECTS]->(b:Airport)
 SET r.distance = distance(a.location, b.location) return a,b,r
-''
+```
